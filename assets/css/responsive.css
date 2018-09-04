@@ -1,0 +1,996 @@
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+    .portfolio-area .portfolio-shape-1{
+        right: -100px;
+        top: 100px;
+    }
+    .footer-area .footer-top .footer-top-shape-2 {
+        position: absolute;
+        right: -100px;
+        top: -90px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 5px;
+        position: relative;
+    }
+    .navbar-area .navbar-btn-wrapper {
+        margin-left: 20px;
+    }
+    .navbar-area .navbar-btn-wrapper .boxed-btn{
+        width: 150px;
+    }
+    .header-area .header-inner .title {
+        font-size: 65px;
+        line-height: 85px;
+    }
+    .service-area .single-service-box .content .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .service-area .single-service-box {
+        border: 1px solid #e5e5e5;
+        padding: 34px 20px 34px 30px;
+    }
+    .team-member-area .team-carousel .single-team-memeber .content .name,
+    .team-member-area.about-page .single-team-memeber .content .name,
+     {
+        font-size: 23px;
+    }
+    .team-member-area .team-carousel .single-team-memeber .content .social-icons li a {
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+    }
+    .counter-area .btn-wrapper {
+        bottom: 0px;
+    }
+    .portfolio-area .portfolio-shape-1,
+    .portfolio-area .portfolio-shape-2,
+    .news-feed-shpae-2,
+    .news-feed-shpae-1,
+    .footer-area .footer-top .footer-top-shape-1,
+    .footer-area .footer-top .footer-top-shape-2,
+    .contact-us-shape-2,
+    .contact-us-shape-1
+    {
+        display: none;
+    }
+    .best-comapany-two .right-content-area .title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .service-bottom-area .service-bottom-inner .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .best-comapany-two.portfolio-page .left-content-area .best-company-img-1 {
+        width: 46%;
+    }
+    .service-page-content .service-list-item .content .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .best-company-area .right-content-right .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .blog-page-content-area .blog-page-content-area-inner .single-blog-post-item .content .title {
+        font-size: 37px;
+        line-height: 46px;
+    }
+    .widget-area.social .social-links li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .blog-page-content-area,
+    .blog-details-content {
+        padding-bottom: 70px;
+    }
+    .team-member-area.team-page .single-team-memeber .content .name {
+        font-size: 23px;
+    }
+    .team-member-area.team-page .single-team-memeber .content .social-icons li a{
+        width: 48px;
+        height: 48px;
+    }
+    .portfolio-area .portfolio-menu ul li{
+        padding: 12px 25px;
+    }
+    .service-page-content .service-list-item .content p{
+        font-size: 14px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 85px;
+        background: #fff;
+        z-index: 9;
+        right: 14%;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .dropdown-item {
+        background: #fff;
+        color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .navbar-area .navbar-btn-wrapper .boxed-btn,
+    .header-bottom-area .left-content-area:after {
+        display: none;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item{
+        line-height: 40px;
+    }
+    .header-bottom-area .left-content-area .title {
+        text-align: left;
+
+    }
+    .service-area .single-service-box .content .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .counter-area .single-counter-item {
+        margin-bottom: 40px;
+    }
+
+    .counter-area {
+        padding-bottom: 76px;
+    }
+    .counter-area .btn-wrapper{
+        bottom: 0;
+    }
+    .portfolio-area .portfolio-shape-1,
+    .portfolio-area .portfolio-shape-2,
+    .news-feed-shpae-2,
+    .news-feed-shpae-1,
+    .footer-area .footer-top .footer-top-shape-1,
+    .footer-area .footer-top .footer-top-shape-2,
+    .contact-us-shape-2,
+    .contact-us-shape-1 {
+        display: none;
+    }
+    .portfolio-area .single-portfolio-item {
+        width: 48%;
+    }
+    .best-comapany-two .left-content-area {
+        margin-bottom: 20px;
+    }
+    .best-comapany-two .right-content-area{
+        padding-left: 0;
+    }
+    .pricing-area .single-pricing-table {
+        margin-bottom: 60px;
+    }
+
+    .pricing-area {
+        padding-bottom: 90px;
+    }
+    .news-feed-area .single-news-feed-item {
+        margin-bottom: 30px;
+    }
+
+    .news-feed-area {
+        padding-bottom: 70px;
+    }
+    .contact-now-area .single-contact-box .content .details {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contact-now-area .single-contact-box .content .title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .service-bottom-area .service-bottom-inner .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .best-comapany-two.portfolio-page .left-content-area .best-company-img-1 {
+        width: 45%;
+    }
+    .service-page-content .service-list-item .content {
+        margin-bottom: 30px;
+    }
+
+    .service-page-content {
+        padding-bottom: 90px;
+    }
+    .faq-area-conent .faq-sidebar{
+        margin-bottom: 40px;
+    }
+    .blog-page-content-area .sidebar,
+    .blog-details-content .sidebar {
+        margin-top: 60px;
+    }
+    .blog-details-content {
+        padding-top: 112px;
+    }
+    .blog-page-content-area,
+    .blog-details-content {
+        padding-bottom: 80px;
+    }
+    .service-area .single-service-box .content .readmore{
+        font-size: 12px;
+    }
+    .best-company-area.best-company-bg{
+        background-position: right;
+    }
+    .best-comapany-two {
+        padding-bottom: 102px;
+    }
+    .best-company-area.best-company-about-bg,
+    .news-letter-area.news-letter-bg {
+        background-position: right;
+    }
+    .best-company-area.best-company-service-bg{
+        background-position: left;
+    }
+    .widget-area.tags {
+        text-align: center;
+    }
+}
+
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+   .portfolio-area .portfolio-shape-1,
+   .portfolio-area .portfolio-shape-2,
+   .news-feed-shpae-2,
+   .news-feed-shpae-1,
+   .footer-area .footer-top .footer-top-shape-1,
+   .footer-area .footer-top .footer-top-shape-2,
+   .contact-us-shape-2,
+   .contact-us-shape-1,
+   .navbar-area .navbar-btn-wrapper .boxed-btn {
+       display: none;
+   }
+    .navbar-light .navbar-toggler {
+        background-color: #fff;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 85px;
+        background: #fff;
+        z-index: 9;
+        right: 14%;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .dropdown-item {
+        background: #fff;
+        color: #fff;
+    }
+    .breadcumb-area .title {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .contact-page-content-area .contact-form-inner .title {
+        font-size: 53px;
+    }
+    .contact-now-area .single-contact-box {
+        margin-bottom: 40px;
+    }
+
+    .contact-now-area {
+        padding-bottom: 75px;
+    }
+    .footer-area .footer-top .footer-top-inner .footer-links li {
+        margin: 0 5px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link{
+        line-height: 35px;
+    }
+    .news-feed-area .single-news-feed-item .thumb img {
+        width: 100%;
+    }
+    .news-feed-area .single-news-feed-item{
+        margin-bottom: 25px;
+    }
+    .news-feed-area{
+        padding-bottom: 70px;
+    }
+    .team-member-area.team-page .single-team-memeber {
+        margin-bottom: 30px;
+    }
+
+    .team-member-area.team-page {
+        padding-bottom: 80px;
+    }
+    .pricing-area .single-pricing-table .header img {
+        width: 100%;
+    }
+
+    .pricing-area .single-pricing-table {
+        margin-bottom: 60px;
+    }
+
+    .pricing-area {
+        padding-bottom: 90px;
+    }
+
+    .best-comapany-two .left-content-area {
+        margin-bottom: 20px;
+    }
+
+    .best-comapany-two .right-content-area {
+        padding-left: 0;
+    }
+    .portfolio-area .single-portfolio-item img{
+        width: 100%;
+    }
+    .blog-details-content .sidebar {
+        margin-top: 60px;
+    }
+
+    .blog-details-content {
+        padding-bottom: 70px;
+    }
+    .blog-page-content-area .blog-page-content-area-inner .single-blog-post-item .content .title {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    .blog-page-content-area .sidebar {
+        margin-top: 60px;
+    }
+
+    .blog-page-content-area {
+        padding-bottom: 70px;
+    }
+    .faq-area-conent .faq-tab-content-area .tab-content .tab-pane .tab-content-inner .title {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    .faq-area-conent .faq-sidebar {
+        margin-bottom: 40px;
+    }
+    .service-bottom-area .service-bottom-inner .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .service-page-content .service-list-item .content {
+        margin-bottom: 30px;
+    }
+
+    .service-page-content {
+        padding-bottom: 90px;
+    }
+    .best-comapany-two.portfolio-page .left-content-area .best-company-img-1 {
+        width: 45%;
+    }
+    .best-comapany-two.portfolio-page .left-content-area .best-company-img-1:first-child {
+        margin-right: 30px;
+    }
+    .service-area .single-service-box{
+        margin-bottom: 30px;
+    }
+    .service-area{
+        padding-bottom: 90px;
+    }
+    .team-member-area.about-page .single-team-memeber {
+        margin-bottom: 30px;
+    }
+
+    .team-member-area {
+        padding-bottom: 90px;
+    }
+    .counter-area .btn-wrapper{
+        bottom: 0;
+    }
+    .team-member-area.about-page .single-team-memeber {
+        margin-bottom: 30px;
+    }
+
+    .team-member-area {
+        padding-bottom: 90px;
+    }
+
+    .counter-area .single-counter-item {
+        margin-bottom: 40px;
+    }
+
+    .counter-area {
+        padding-bottom: 80px;
+    }
+    .portfolio-area.about-page {
+        padding-bottom: 90px;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn {
+        width: 220px;
+    }
+    .header-bottom-area .left-content-area .title {
+        text-align: left;
+        font-size: 48px;
+    }
+
+    .header-bottom-area .left-content-area:after {
+        display: none;
+    }
+    .portfolio-area {
+        padding-top: 110px;
+    }
+
+    .best-comapany-two {
+        padding-bottom: 100px;
+    }
+    .best-company-area.best-company-about-bg,
+    .news-letter-area.news-letter-bg {
+        background-position: right;
+    }
+
+    .best-company-area.best-company-service-bg {
+        background-position: left;
+    }
+    .widget-area.tags {
+        text-align: center;
+    }
+    .service-page-content .service-list-item .content .title{
+        font-size: 35px;
+    }
+    .best-company-area .right-content-right .title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .best-company-area .right-content-right .subtitle{
+        font-size: 14px;
+    }
+    .service-area .single-service-box .content .readmore{
+        font-size: 12px;
+    }
+    .header-area.header-bg{
+        background-position: left;
+    }
+    .header-area .header-inner .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .header-area {
+        padding: 160px 0 180px 0;
+    }
+    .header-area .header-inner .btn-wrapper {
+        margin-top: 50px;
+    }
+    .header-bottom-area .right-content-area .author {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .best-company-area.best-company-bg {
+        background-position: right;
+    }
+    .best-comapany-two .right-content-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .best-comapany-two .right-content-area .subtitle {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .pricing-area .single-pricing-table .body .price .name {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 480px) {
+   .topbar-bar .topbar-inner .topbar-left-content {
+       display: block;
+       text-align: center;
+   }
+   .topbar-bar .topbar-inner .topbar-right-content{
+       float: none;
+       text-align: center;
+       display: block;
+   }
+   .header-area .header-inner .btn-wrapper .boxed-btn {
+       width: 191px;
+        margin: 0 5px;
+   }
+   .header-area .header-inner .title {
+       font-size: 50px;
+       line-height: 60px;
+   }
+   .section-title .subtitle{
+       font-size: 14px;
+   }
+   .section-title .title {
+       font-size: 45px;
+       line-height: 55px;
+   }
+   .best-company-area .right-content-right .title {
+       font-size: 45px;
+       line-height: 55px;
+   }
+   .best-comapany-two .right-content-area .title {
+       font-size: 44px;
+       line-height: 55px;
+   }
+   .pricing-area .single-pricing-table .body .price .name {
+       font-size: 45px;
+       line-height: 55px;
+   }
+   .about-page-content .about-page-features .icon {
+       padding-left: 20px;
+   }
+   .breadcumb-area .title {
+       font-size: 50px;
+       line-height: 60px;
+   }
+   .service-bottom-area .service-bottom-inner .title {
+       font-size: 30px;
+       line-height: 40px;
+   }
+   .service-bottom-area .img-wrapper img {
+       height: 200px;
+   }
+   #portfolio-marosny {
+       margin: 0 15px;
+   }
+   .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .top-content .right-content {
+       float: none;
+       display: none;
+   }
+
+   .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content .title {
+       display: block;
+       font-size: 18px;
+       margin-bottom: 0;
+   }
+
+   .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content {
+       float: none;
+       margin-top: 10px;
+   }
+   .widget-area.tags {
+       text-align: center;
+   }
+   .contact-page-content-area .contact-form-inner{
+       padding: 33px 40px 40px 40px;
+   }
+   .contact-page-content-area .contact-form-inner .title {
+       font-size: 45px;
+   }
+   .news-letter-area .newsletter-inner .newletter-form .submit-btn {
+       position: inherit;
+       width: 100%;
+       margin-top: 20px;
+   }
+   .news-letter-area .newsletter-inner .title {
+       font-size: 45px;
+   }
+   .news-letter-area .newsletter-inner .subtitle{
+       font-size: 14px;
+   }
+   .service-page-content .service-list-item .content .title {
+       font-size: 30px;
+       line-height: 40px;
+   }
+   .news-letter-area .newsletter-inner .newletter-form .form-element .input-field {
+       padding-right: 20px;
+   }
+}
+
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+   .header-area .header-inner .btn-wrapper .boxed-btn {
+       width: 180px;
+       margin: 0 5px;
+   }
+   .header-area {
+       padding: 130px 0 130px 0;
+   }
+   .breadcumb-area {
+       padding: 100px 0 88px 0;
+   }
+   .breadcumb-area .subtitle {
+       font-size: 14px;
+       margin-bottom: 0px;
+   }
+   .testimonial-area .testimonial-carousel .single-testimonial-item .details p{
+       font-size: 16px;
+       line-height: 26px;
+   }
+   .contact-page-content-area .contact-form-inner .contact-form-wrapper .submit-btn {
+       width: 100%;
+   }
+   .service-page-content .service-list-item .content .title {
+       margin-bottom: 15px;
+   }
+   .service-page-content .service-list-item .content p {
+       font-size: 14px;
+       line-height: 26px;
+   }
+   .about-page-content .about-page-features .icon{
+       padding-left: 0;
+       margin-bottom: 0px
+   }
+   .best-comapany-two .right-content-area .title {
+       font-size: 35px;
+       line-height: 45px;
+   }
+   .best-comapany-two .right-content-area .subtitle {
+       font-size: 12px;
+       margin-bottom: 5px;
+   }
+   .best-comapany-two .right-content-area p {
+       font-size: 14px;
+       line-height: 26px;
+   }
+   .section-title .title {
+       font-size: 41px;
+       line-height: 51px;
+   }
+   .header-area .header-inner .title {
+       font-size: 44px;
+       line-height: 54px;
+   }
+   .header-area {
+       padding-top: 100px;
+   }
+   .header-area .header-inner .subtitle {
+       font-size: 16px;
+       line-height: 40px;
+   }
+   .header-bottom-area .right-content-area p{
+       font-size: 14px;
+   }
+   .header-bottom-area .left-content-area .title {
+       text-align: left;
+       font-size: 35px;
+       line-height: 45px;
+   }
+   .best-company-area .right-content-right .title {
+       font-size: 35px;
+       line-height: 45px;
+   }
+   .best-company-area .right-content-right p {
+       font-size: 14px;
+   }
+   .pricing-area .single-pricing-table .body .price .name {
+       font-size: 35px;
+       line-height: 45px;
+   }
+   .pricing-area .single-pricing-table .body .price .month {
+       font-size: 12px;
+   }
+}
+
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+  .navbar-light .navbar-brand {
+      margin-right: 0;
+  }
+
+  .header-area .header-inner .btn-wrapper .boxed-btn {
+      width: 200px;
+  }
+
+  .header-area .header-inner .btn-wrapper .boxed-btn.blank {
+      margin-top: 20px;
+  }
+  .header-bottom-area .left-content-area .title {
+      text-align: left;
+      font-size: 40px;
+      line-height: 50px;
+  }
+  .section-title .title,
+  .best-company-area .right-content-right .title,
+  .best-comapany-two .right-content-area .title {
+      font-size: 40px;
+      line-height: 50px;
+  }
+  .contact-page-content-area .contact-form-inner .title {
+      font-size: 42px;
+      line-height: 52px;
+  }
+  .contact-page-content-area .contact-form-inner .contact-form-wrapper .submit-btn{
+      width: 100%;
+  }
+  .contact-now-area .single-contact-box .icon {
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      font-size: 40px;
+  }
+  .counter-area .single-counter-item .content .counter-text {
+      font-size: 40px;
+      line-height: 50px;
+  }
+}
+
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    .navbar-light .navbar-brand {
+        margin-right: 0;
+        width: 170px;
+    }
+    .breadcumb-area .title {
+        font-size: 45px;
+        line-height: 54px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li a {
+        padding: 10px 15px;
+    }
+    .submit-btn{
+        width: 100%;
+    }
+    .breadcumb-area {
+        padding: 120px 0 100px 0;
+    }
+    .service-page-content .service-list-item .icon {
+        position: initial;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    .service-page-content .service-list-item .content {
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    .best-comapany-two.portfolio-page .left-content-area .best-company-img-1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .best-comapany-two .left-content-area{
+        margin-bottom: 0;
+    }
+    .header-bottom-area .left-content-area .title {
+        text-align: left;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section-title .title,
+    .best-company-area .right-content-right .title,
+    .best-comapany-two .right-content-area .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .section-title .subtitle {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .service-area .single-service-box .content .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .header-area .header-inner .title {
+        font-size: 41px;
+        line-height: 51px;
+    }
+    .header-area .header-inner .subtitle {
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .news-letter-area .newsletter-inner .title {
+        font-size: 38px;
+    }
+    .breadcumb-area {
+        padding: 80px 0 70px 0;
+    }
+    .service-page-content .service-list-item .content .title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .best-company-area .right-content-right .subtitle {
+        font-size: 12px;
+    }
+    .faq-area-conent .faq-tab-content-area .tab-content .tab-pane .tab-content-inner .title {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .contact-page-content-area .contact-form-inner .subtitle {
+        font-size: 14px;
+    }
+    .contact-page-content-area .contact-form-inner .title {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .news-feed-area .single-news-feed-item .description .content .title {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .blog-page-content-area .blog-page-content-area-inner .single-blog-post-item .content .title,
+    .blog-details-content .single-blog-post .details-container .post-body .title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .blog-page-content-area .blog-page-content-area-inner .single-blog-post-item .content p,
+    .blog-details-content .single-blog-post .details-container .post-body p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .icon {
+        display: none;
+    }
+
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .content {
+        padding-left: 15px;
+    }
+}
+
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 320px) {
+   .navbar-light .navbar-brand {
+       margin-right: 0;
+       width: 130px;
+   }
+   .section-title .subtitle {
+       font-size: 14px;
+       line-height: 14px;
+   }
+   .section-title .title,
+   .best-company-area .right-content-right .title,
+   .best-comapany-two .right-content-area .title {
+       font-size: 33px;
+       line-height: 43px;
+   }
+   .news-feed-area .single-news-feed-item .description .time {
+       position: initial;
+   }
+
+   .news-feed-area .single-news-feed-item .description .content {
+       padding-left: 0;
+       margin-top: 15px;
+   }
+   .team-member-area.about-page .single-team-memeber .content .post,
+   .team-member-area.team-page .single-team-memeber .content .post {
+       font-size: 14px;
+   }
+   .team-member-area.about-page .single-team-memeber .content .name,
+   .team-member-area.team-page .single-team-memeber .content .name {
+       font-size: 24px;
+   }
+   .breadcumb-area .title {
+       font-size: 40px;
+       line-height: 50px;
+   }
+   .breadcumb-area .subtitle {
+       font-size: 16px;
+   }
+   .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .icon {
+       display: none;
+   }
+
+   .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .content {
+       padding-left: 20px;
+   }
+   .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li a {
+       padding: 5px 10px;
+   }
+   .blog-details-content .comments-area .single-comment-item .thumb {
+       position: initial;
+   }
+
+   .blog-details-content .comments-area .single-comment-item .content {
+       padding-left: 0;
+   }
+   .team-member-area.about-page .single-team-memeber .content .social-icons li a,
+   .team-member-area.team-page .single-team-memeber .content .social-icons li a {
+       width: 40px;
+       height: 40px;
+       line-height: 40px;
+       font-size: 12px;
+   }
+   .contact-page-content-area .contact-form-inner .subtitle{
+       font-size: 14px;
+   }
+   .contact-page-content-area .contact-form-inner .title {
+       font-size: 32px;
+       line-height: 42px;
+   }
+   .news-letter-area .newsletter-inner .title {
+       font-size: 33px;
+   }
+   .widget-area.social .social-links li {
+       display: inline-block;
+       margin: 0 -1px;
+   }
+   .widget-area .widget-title h4:before,
+   .widget-area .widget-title h4:after {
+        display: none;
+   }
+   .blog-details-content .single-blog-post .details-container .post-body .title{
+       font-size: 23px;
+   }
+   .footer-area .footer-bottom-area .copyright-area {
+       font-size: 14px;
+   }
+   .section-title .title,
+   .best-company-area .right-content-right .title,
+   .best-comapany-two .right-content-area .title {
+       font-size: 29px;
+       line-height: 39px;
+   }
+   .faq-area-conent .faq-tab-content-area .tab-content .tab-pane .tab-content-inner .title {
+       font-size: 24px;
+       line-height: 33px;
+   }
+   .service-area .single-service-box .content .title {
+       font-size: 20px;
+       line-height: 32px;
+   }
+   .header-area .header-inner .title {
+       font-size: 36px;
+       line-height: 46px;
+   }
+   .header-area {
+       padding-bottom: 115px;
+   }
+   .header-bottom-area .left-content-area .title {
+       text-align: left;
+       font-size: 26px;
+       line-height: 34px;
+   }
+   .service-area .single-service-box .content .title {
+       font-size: 18px;
+       line-height: 26px;
+   }
+   .service-area .single-service-box .icon {
+       font-size: 50px;
+       line-height: 50px;
+       margin-bottom: 20px;
+   }
+   .team-member-area .team-carousel .single-team-memeber .content .social-icons li a {
+       width: 48px;
+       height: 48px;
+       line-height: 48px;
+   }
+}
