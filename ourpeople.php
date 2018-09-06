@@ -51,11 +51,11 @@
                 <p>
 <!--                <h5>  Our People </h5><br>-->
 
-                <strong>  Patrons </strong><br><br>
+<!--                <strong>  Patrons </strong><br><br>
                 Mrs. Florence Oboshie Sai Cofie <br>
                 Ambassodor Kabral Blay-Amihere<br>
                 Mr. Martin Eson-Benjamin<br>
-                Very Rev. Father John Louis<br><br>
+                Very Rev. Father John Louis<br><br>-->
 
                 <strong> Board of Directors </strong><br><br>
                 Ben Ackah-Mensah        (Subscribing Director / Executive Director)<br>
